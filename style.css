@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+.noactive {
+    display: none;
+}
+
+#outer-wrapper {
+
+}
+
+#game-canvas {
+    height: 500px;
+    width: 500px;
+}
+
+#scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
