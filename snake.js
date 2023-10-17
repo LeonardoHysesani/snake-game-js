@@ -9,7 +9,7 @@ function game() {
             score.value++
 
             // 1% speed increase for every food eaten
-            tickInterval *= 0.99
+            tickInterval *= 0.8
         },
         reset: () => {
             score.value = -1
